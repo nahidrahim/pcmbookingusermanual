@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+ul,ol {
+    list-style: none;
+}
+/* would not cause any change; the entire paragraph would still be underlined. */
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 80% ;
+    margin: 0 auto;
+}
+
+.for_nav_background{
+    clear: both;
+}
+
+/*navigation part css start */
+/* list style:none Remove list bullets */
+
+nav{
+    background-color:#0C7D83;
+}
+.logo{
+    width: 30%;
+    float: left;
+}
+.menu{
+    width: 70%;
+    float: left;
+
+}
+.logo,img{
+    width: 75px;
+    margin-top: 0px;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    float: left;
+    padding: 20px 15px;
+} 
+.menu ul li a{
+    color: white;
+    font-size: 20px;
+}
+
+/*navigation part css end */
+
+/*banner part start */
+/* #banner{
+    background: url(..//images/banner.jpg );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} */
+#banner{
+    background: url(../imges/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ 
+}
+.banner_overlay{
+    padding: 100px 0px;
+    background-color: rgba(0,0,0,0.5);
+}
+.banner_content h1{
+    font-size: 70px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 20px;
+}
+.banner_content h4{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: orange;
+    padding-bottom: 40px;
+}
+.banner_content a{
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: #0C7D83;
+    padding: 12px 30px;
+    color: white;
+    border-radius: 30px;
+}
+/*banner part end */
+
+/* About part css start*/
+.about_heading h4{
+    text-align: center;
+    margin: 40px 0;
+    padding: 10px 0;
+    background-color: #0C7D83;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    border-radius: 5px;
+    }
+    /* .about_img{
+        width: 47%;
+        float: left;
+        margin-right: 3%;
+    } */
+    /* .about_img img{
+        width: 100%;
+    } */
+    
+    .login_content{
+        width: 100%;
+        float: left;
+    }
+    .login_content p{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    } 
+    .login_content a{
+        margin-top: 5px;
+        transition: 3.ms;
+        color: blue;
+    }
+    .login_contentloginimg{
+        width: 24%;
+
+    }
+    .login_content h4 {
+        text-align: center;
+        padding-bottom: 20px;
+        font-size: 30px;
+    }
+    .login_content p{
+        line-height: 30px;
+        text-align: justify;
+
+    }
+    .printer_downloadimg{
+       width: 50%;
+    }
+    .booking_option{
+        width: 50%;
+    }
+    .booking_completeform{
+        width: 100%;
+    }
+    /* About part css End*/
+    /* Re-Print Css :start */
+    .Re-Print p{
+        line-height: 30px;
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .Re-Print img{
+        width: 100%;
+    }
+    /* Re-Print Css : End */
+    /* Footer Part Css :start */
+footer{
+    margin: 40px;
+    padding: 25px 0;
+    background: #0C7D83;
+}
+.footer_content{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+/* Footer Part Css :End */
